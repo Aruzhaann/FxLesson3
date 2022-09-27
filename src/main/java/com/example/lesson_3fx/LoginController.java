@@ -21,7 +21,7 @@ public class LoginController {
     Label incorrectLabel;
 
     public void loginButtonClicked(ActionEvent event){
-        if (emailTextField.getText().equals("aruzjan@gmail.com") && (passwordTextField.getText().equals("12345"))) {
+        if (emailTextField.getText().equals("aruzhan@gmail.com") && (passwordTextField.getText().equals("12345"))) {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(getClass().getResource("welcomepage.fxml"));
