@@ -17,11 +17,11 @@
          <font>
             <Font size="13.0" />
          </font></TextField>
-        <TextField id="surnameTextField" fx:id="surnameTextField" layoutX="36.0" layoutY="123.0" prefHeight="25.0" prefWidth="295.0" promptText="enter surname" style="-fx-background-color: black;" />
-        <TextField id="groupTextField" fx:id="groupTextField" layoutX="36.0" layoutY="157.0" prefHeight="25.0" prefWidth="295.0" promptText="enter group" style="-fx-background-color: black;" />
-        <TextField id="classroomTextField" fx:id="classroomTextField" layoutX="36.0" layoutY="189.0" prefHeight="25.0" prefWidth="295.0" promptText="enter classroom" style="-fx-background-color: black;" />
-        <TextField id="emailTextField" fx:id="emailTextField" layoutX="36.0" layoutY="222.0" prefHeight="25.0" prefWidth="295.0" promptText="enter email" style="-fx-background-color: black;" />
-        <TextField id="phonenumberTextField" fx:id="phonenumberTextField" layoutX="36.0" layoutY="257.0" prefHeight="25.0" prefWidth="295.0" promptText="enter phone number" style="-fx-background-color: black;" />
+        <TextField id="surnameTextField" fx:id="surnameTextField" layoutX="36.0" layoutY="123.0" prefHeight="25.0" prefWidth="295.0" promptText="enter surname" />
+        <TextField id="groupTextField" fx:id="groupTextField" layoutX="36.0" layoutY="157.0" prefHeight="25.0" prefWidth="295.0" promptText="enter group" />
+        <TextField id="classroomTextField" fx:id="classroomTextField" layoutX="36.0" layoutY="189.0" prefHeight="25.0" prefWidth="295.0" promptText="enter classroom" />
+        <TextField id="emailTextField" fx:id="emailTextField" layoutX="36.0" layoutY="222.0" prefHeight="25.0" prefWidth="295.0" promptText="enter email" />
+        <TextField id="phonenumberTextField" fx:id="phonenumberTextField" layoutX="36.0" layoutY="257.0" prefHeight="25.0" prefWidth="295.0" promptText="enter phone number" />
         <Button id="registerButton" fx:id="registerButton" layoutX="204.0" layoutY="301.0" mnemonicParsing="false" onAction="#registerButtonClicked" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: pink;" text="Register">
          <font>
             <Font name="System Bold Italic" size="12.0" />

@@ -21,7 +21,21 @@ public class LoginController {
     Label incorrectLabel;
 
     public void loginButtonClicked(ActionEvent event){
-        loginButton.setText("Clicked");
+        if (emailTextField.getText().equals("aruzjan@gmail.com") && (passwordTextField.getText().equals("12345"))) {
+            try {
+                FXMLLoader fxmlLoader = new FXMLLoader();
+                fxmlLoader.setLocation(getClass().getResource("welcomepage.fxml"));
+                Scene scene = new Scene(fxmlLoader.load(),370, 574);
+                Stage stage = new Stage();
+                stage.setTitle("WELCOME PAGE");
+                stage.setScene(scene);
+                stage.show();
+                ((Node)(event.getSource())).getScene().getWindow().hide();
+            }
+            catch (IOException e) {
+                System.out.println(e.toString());
+            }
+        }
     }
 
     public void registrationButtonClicked(ActionEvent event) {
@@ -39,3 +53,4 @@ public class LoginController {
         }
     }
 }
+
